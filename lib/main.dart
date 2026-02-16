@@ -4,6 +4,7 @@ import 'firebase_options.dart';
 import 'splash_or_wrapper_page.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
+// test 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
