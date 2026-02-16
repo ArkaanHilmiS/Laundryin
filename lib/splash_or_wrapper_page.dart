@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'features/auth/presentation/pages/sign_in_page.dart'; // Ganti import ini!
@@ -129,7 +131,7 @@ class _HomePageWithExit extends StatelessWidget {
 // SignInPage + WillPopScope agar BACK = Keluar aplikasi
 // ====================
 class _SignInPageWithExit extends StatelessWidget {
-  const _SignInPageWithExit({super.key});
+  const _SignInPageWithExit();
   @override
   Widget build(BuildContext context) {
     return WillPopScope(
